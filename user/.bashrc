@@ -112,3 +112,6 @@ fi
 umask 022
 PS1='\[\033[01;034m\]\u\[\033[01;036m\]@\[\033[01;32m\]\h \[\033[01;32m\]\W \[\033[01;031m\]\$ \[\033[00m\]'
 export PS1
+
+# Set to VI in Bash for quick navigation
+set -o vi
